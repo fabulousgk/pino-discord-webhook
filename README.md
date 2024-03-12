@@ -1,6 +1,6 @@
 # Pino Discord Webhook Transport
 
-A [Pino v7+ transport](https://getpino.io/#/docs/transports?id=v7-transports) to send events to [Slack](https://slack.com/)
+A [Pino v7+ transport](https://getpino.io/#/docs/transports?id=v7-transports) to send events to [Discord](https://discord.com/)
 
 ## Installation
 
