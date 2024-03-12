@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": ["es2023"],
+    "module": "node16",
+    "target": "es2022",
+    "skipLibCheck": true,
+    "moduleResolution": "node16",
+    "moduleDetection": "force",
+    "declaration": true,
+
+    "resolveJsonModule": true,
+
+    "strict": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "outDir": "dist/",
+    "removeComments": true
+  },
+
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
