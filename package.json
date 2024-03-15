@@ -1,6 +1,6 @@
 {
 	"name": "pino-discord-webhook",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "pino-discord-webhook is a Pino v7+ compatible transport to forward log events to a Discord webhook from a dedicated worker",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",

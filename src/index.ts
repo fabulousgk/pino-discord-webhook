@@ -25,7 +25,7 @@ async function discordTransport(options: { webhookURL: string }) {
 				.setColor(embedColors[message.level]!)
 				.setTitle(String(message.msg))
 				.setDescription(
-					message.err.stack
+					message.err
 						? String(message.err.stack).slice(0, 4000)
 						: 'No stack trace',
 				)
