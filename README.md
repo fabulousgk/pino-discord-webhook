@@ -10,6 +10,8 @@ npm install --save pino-discord-webhook
 
 ## Usage
 
+You will need to [create a webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) on your discord server and copy the URL.  It is recommended that you protect this URL like other secrets to avoid your channel being spammed by others.
+
 ```js
 import pino from 'pino'
 
