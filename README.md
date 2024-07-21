@@ -19,7 +19,7 @@ const logger = pino({
   transport: {
     target: 'pino-discord-webhook',
     options: {
-      webhookUrl: 'https://discord.com/api/webhooks/xxxx/xxxx',
+      webhookURL: 'https://discord.com/api/webhooks/xxxx/xxxx',
     }
   }
 })
