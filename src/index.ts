@@ -24,16 +24,18 @@ async function discordTransport(options: { webhookURL: string }) {
 			const embed = new EmbedBuilder()
 				.setColor(embedColors[message.level]!)
 				.setTitle(String(message.msg))
-				.setDescription(
-					message.err
-						? String(message.err.stack).slice(0, 4000)
-						: 'No stack trace',
-				)
 				.setTimestamp();
 
 			await webhook.send({
 				embeds: [embed],
 			});
+			await webhook.send(
+				'```\n' +
+					(message.err
+						? String(message.err.stack).slice(0, 4000)
+						: 'No stack trace') +
+					'\n```',
+			);
 		}
 	});
 }
